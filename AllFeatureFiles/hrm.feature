@@ -14,3 +14,5 @@ Feature: Test Orange HRM Application
     Then validate user is on pim page by using url
     And user click on Add employee
     And user enter fname and lastname and click on save button
+    And user capture the employee id number
+    And user click on employee list button
