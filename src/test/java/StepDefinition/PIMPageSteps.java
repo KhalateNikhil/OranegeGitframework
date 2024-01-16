@@ -24,4 +24,16 @@ public class PIMPageSteps extends BaseClass {
 
 	}
 
+	@Then("user click on Add employee")
+	public void user_click_on_add_employee() {
+		pimpage.clickOnAddEmployee();
+
+	}
+
+	@Then("user enter fname and lastname and click on save button")
+	public void user_enter_fname_and_lastname_and_click_on_save_button() throws InterruptedException {
+		
+		pimpage.addNewEmployee("nikhil", "khalate");
+	}
+
 }
