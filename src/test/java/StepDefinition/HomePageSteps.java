@@ -26,4 +26,19 @@ public void validate_home_page_url()
    
 }
 
+
+@When("user validate home page logo")
+public void user_validate_home_page_logo() 
+{
+	boolean a=homepage.getHomePageLogo();
+	System.out.println("true");
+	
+	
+   }
+
+
+
+
+
+
 }
